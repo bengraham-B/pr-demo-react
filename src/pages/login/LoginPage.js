@@ -82,7 +82,7 @@ export default function HomePage() {
 			<LoginHeader/>
 
 		<div id="login-header" className="m-6 ">
-			<h1 className=' font-light text-center text-4xl bg-bue-800'>LOGIN Dev</h1>
+			<h1 className=' font-light text-center text-4xl bg-bue-800'>LOGIN</h1>
 
 		</div>
 
@@ -104,9 +104,9 @@ export default function HomePage() {
 					<button className="bg-blue-600 text-white py-2 px-4 rounded text-xl" onClick={handleLogin}>Login</button>
 				</div>
 				
-				<div id="button-container" className='my-4 flex flex-col items-center justify-center'>
+				{/* <div id="button-container" className='my-4 flex flex-col items-center justify-center'>
 					<button className="bg-blue-600 text-white py-2 px-4 rounded text-xl" onClick={testAPI}>Test API</button>
-				</div>
+				</div> */}
 				
 			</div>
 
